@@ -21,6 +21,7 @@ estudiantes = [
 
 for estudiante in estudiantes:
     promedio = (estudiante["matematicas"] + estudiante["literatura"] + estudiante["ciencia"]) / 3
+    
     estudiante["promedio"] = promedio
 
 
